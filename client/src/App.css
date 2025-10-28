@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root, .App{
+  height: 100%;
+}
+
+.App{
+  text-align: center;
+}
+
+header, main{
+  padding: 2rem 0 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+label{
+  position: absolute;
+  left: -1000px;
+}
+
+input, button{
+  padding: 0.5rem 1rem;
+  border: 2px solid #111;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  font-family: inherit;
+}
+
+button{
+  margin: 0 0 0 1rem;
+  cursor: pointer;
+}
+
+button:hover{
+  transition: all 0.5s ease-in-out;
+  background-color: #111;
+  color: #fff;
+}
+
+section{
+  margin: 2rem 0 0;
+}
+
+ul li{
+  list-style-type: none;
+  padding: 1rem 0 0;
+  font-size: 1.2rem;
+}
+
+.check{
+  margin: 1rem 0 0;
+  cursor: pointer;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.list_item{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_item button{
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.list_item button:hover{
+  transition: all 0s ease-in-out;
+}
+
+.list_item li.done{
+  text-decoration: line-through;
+}
