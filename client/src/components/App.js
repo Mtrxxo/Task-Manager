@@ -13,7 +13,7 @@ function App() {
   }, []);
 
   async function fetchTasks(){
-    const res = await fetch(`${API_BASE}api/tasks`);
+    const res = await fetch(`${API_BASE}/api/tasks`);
 
     const data = await res.json();
 
